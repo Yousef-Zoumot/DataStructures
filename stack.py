@@ -5,10 +5,10 @@ class Stack:
     def isEmpty(self):
         return self.items == []
 
-    def push(self, item):
+    def push(self, item): # O(1)
         self.items.append(item)
 
-    def pop(self):
+    def pop(self): # O(1)
         return self.items.pop()
 
     def peek(self):
